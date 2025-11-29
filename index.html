@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfólio - Murilo Silva</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Murilo Silva Rodrigues</h1>
+            <nav>
+                <a href="#sobremim">Sobre Mim</a>
+                <a class="link" href="#meusprojetos">Meus Projetos</a>
+                <a href="#habilidades">Minhas Habilidades</a>
+                <a class="link" href="#contato">Contato</a>
+            </nav>
+        </header>
+        <h3 id="sobremim">Sobre Mim</h3>
+        <section class="sobremim">
+            <figure>
+                <img src="img/murilovolei.jpeg"
+                class="voleizin"
+                alt="Imagem de Murilo Silva" 
+                widht="500" height="500">
+            </figure>
+            <p>Meu nome é Murilo Silva Rodrigues, nasci em Fortaleza-CE no dia 26 de outubro de 2009 (tenho 16 anos). Moro com meus pais em Maranguape desde novembro de 2018. Resolvi estudar no IFCE Campus Maranguape porque é uma das melhores escolas do município, onde eu poderia ter várias oportunidades, mesmo não sendo da área de tecnologia. Sou do campo de ciências exatas e geografia.</p>
+            <p>Uma das minhas atividades preferidas é ler livros, em especial de investigação policial, mistério e romances brasileiros. Além disso, gosto de praticar esportes, principalmente vôlei, tanto de quadra quanto de praia, tive participações nos Jogos dos Institutos Federais do Ceará (JIFCE), Copa Anchieta e Jogos Escolares de Maranguape.</p>
+            <a href="https://www.instagram.com/muriloneto2610" target="_blank" rel="noopener noreferrer">
+            @muriloneto2610
+            </a>
+            <a href="https://github.com/murilo-neto26" target="_blank" rel="noopener noreferrer">
+            murilo-neto26
+            </a>
+            <div class="livros">Sendo minhas principais conquistas:</div>
+            <ul>
+                <li><b>Jogos de Praia do IFCE 2024 - 1º Lugar</b></li>
+                <li><b>Jogos Escolares de Maranguape 2025 - 2º Lugar</b></li>
+            </ul>
+        </section>
+        <h3 id="meusprojetos">Meus Projetos</h3>
+        <section class="meusprojetos">
+            <table>
+                <thead>
+                    <th><b>PROJETO</b></th>
+                    <th><b>PROFESSOR</b></th>
+                    <th><b>SEMESTRE</b></th>
+                </thead>
+                <tbody>
+                    <tr><td>Batalha Naval em Python</td><td>Thomaz Maia</td><td>2025.1</td></tr>
+                    <tr><td>Grupo Musical do F2M</td><td>Élder Vidal</td><td>2025.1</td></tr>
+                    <tr><td>Repositório de Atividades Java</td><td>Róger Sarmento</td><td>2025.2</td></tr>
+                </tbody>
+            </table>
+        </section>
+        <h3 id="habilidades">Minhas Habilidades</h3>
+        <section class="habilidades">
+            <table>
+                <thead>
+                    <th><b>TECNOLOGIA</b></th>
+                    <th><b>NÍVEL DE CONHECIMENTO</b></th>
+                    <th><b>TEMPO DE ESTUDO</b></th>
+                </thead>
+                <tbody>
+                    <tr><td>Informática</td><td>Intermediário</td><td>4 Meses</td></tr>
+                    <tr><td>Inglês</td><td>Básico</td><td>2 Meses</td></tr>
+                    <tr><td>Java</td><td>Básico</td><td>6 Meses</td></tr>
+                    <tr><td>Python</td><td>Básico</td><td>12 Meses</td></tr>
+                </tbody>
+            </table>
+        </section>
+        <h3 id="contato">Contato</h3>
+        <article class="contato">
+            <form action="/processador_dados" method="post">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="assunto">Assunto:</label><br>
+                <select id="assunto" name="assunto" required>
+                    <option value="">Selecione um assunto</option>
+                    <option value="suporte">Conversar</option>
+                    <option value="vendas">Fofoca</option>
+                    <option value="feedback">Vôlei</option>
+                    <option value="outros">Outros</option>
+                </select><br><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </article>
+        <figure>
+                <img src="img/murilobb.jpeg"
+                class="crianca"
+                alt="Imagem de Murilo Silva" 
+                widht="600" height="500">
+        </figure>
+    </body>
+</html>

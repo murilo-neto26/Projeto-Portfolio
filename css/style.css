@@ -1,0 +1,150 @@
+html {
+    background-color: rgb(207, 207, 207);
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: verdana;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    height: 270px;
+    background-color: rgb(53, 93, 153);
+    font-family: Verdana;
+    margin-top: auto;
+    color: white;
+    text-align: center;
+}
+
+.voleizin {
+    float: right;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(232, 232, 232);
+}
+
+.sobremim {
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+p {
+    margin: 10px;
+}
+
+div {
+    margin: 10px;
+}
+
+ul {
+    margin: 10px;
+    background-color: rgb(172, 69, 69);
+    width: 630px;
+}
+
+.projetos {
+    margin-top: 200px;
+}
+
+.meusprojetos {
+    width: 790px;
+    height: 305px;
+    font-size: 25px;
+    font-family: monospace;
+    background-color: white;
+    background-color: #94b6e2;
+    text-align: center;
+    background-position: center;
+}
+
+.habilidades {
+    width: 720px;
+    height: 370px;
+    font-size: 25px;
+    font-family: monospace;
+    background-color: white;
+    background-color: rgb(178, 178, 214);
+    text-align: center;
+}
+
+label {
+    font-size: 25px;
+    color: rgb(56, 11, 116);
+}
+
+input {
+    font-size: 25px;
+}
+
+select {
+    font-size: 25px;
+}
+
+button {
+    font-size: 25px;
+}
+
+td, th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 15px;
+    margin: 0 auto;
+}
+
+.contato {
+    padding: 10px;
+    margin-top: 50px;
+    float: right;
+    margin-right: 550px;
+    background-color: rgb(69, 82, 141);
+}
+
+.crianca {
+    float: left;
+    margin-left: 250px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(232, 232, 232);
+}
+
+nav {
+    text-align: center;
+}
+
+a {
+    font-size: 20px;
+    color: rgb(7, 48, 7);
+    background-color: white;
+    width: 170px;
+    padding: 6px;
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+    border-radius: 15px;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+}
+
+.link {
+    background-color: gray;
+}
