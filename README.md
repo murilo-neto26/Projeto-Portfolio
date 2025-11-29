@@ -8,7 +8,7 @@ Criar uma página de portfólio pessoal utilizando HTML e CSS, aplicando correta
 Estrutura semântica e navegação.
 
 ### Seção "Sobre mim"
-Um pequeno texto de apresentação (usando <p> e h1, h2, ...).
+Um pequeno texto de apresentação (usando "<p>" e h1, h2, ...).
 Uma foto pessoal (usando <img> com <figure> e <figcaption>).
 
 ### Seção "Projetos"
