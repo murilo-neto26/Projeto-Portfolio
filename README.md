@@ -8,12 +8,11 @@ Criar uma página de portfólio pessoal utilizando HTML e CSS, aplicando correta
 Estrutura semântica e navegação.
 
 ### Seção "Sobre mim"
-Um pequeno texto de apresentação (usando "<p>" e h1, h2, ...).
-Uma foto pessoal (usando <img> com <figure> e <figcaption>).
+Um pequeno texto de apresentação e uma foto pessoal.
 
 ### Seção "Projetos"
-Lista (<ul> ou <ol>) com nomes de projetos ou trabalhos feitos em disciplinas (que você ache relevante) até agora.
-Cada item pode ter um link (<a>) que leva a outro site (ex: repositório no GitHub com projeto de POO).
+Lista com nomes de projetos ou trabalhos feitos em disciplinas (que você ache relevante) até agora.
+Cada item pode ter um link que leva a outro site (ex: repositório no GitHub com projeto de POO).
 
 ### Seção "Habilidades"
 Uma tabela (<table>) listando as linguagens ou tecnologias que você conhece. Exemplo: Colunas “Tecnologia”, “Nível de Conhecimento”, “Tempo de Experiência”.
