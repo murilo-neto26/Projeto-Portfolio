@@ -15,10 +15,10 @@ Lista com nomes de projetos ou trabalhos feitos em disciplinas (que você ache r
 Cada item pode ter um link que leva a outro site (ex: repositório no GitHub com projeto de POO).
 
 ### Seção "Habilidades"
-Uma tabela (<table>) listando as linguagens ou tecnologias que você conhece. Exemplo: Colunas “Tecnologia”, “Nível de Conhecimento”, “Tempo de Experiência”.
+Uma tabela listando as linguagens ou tecnologias que você conhece. Exemplo: Colunas “Tecnologia”, “Nível de Conhecimento”, “Tempo de Experiência”.
 
 ### Seção "Contato"
-Um formulário (<form>) com os seguintes campos obrigatórios:
+Um formulário com os seguintes campos obrigatórios:
 
 Nome (input type="text")
 
@@ -32,13 +32,13 @@ Botão de envio (button ou input type="submit")
 
 ## Requisitos de Estilo (CSS)
 - O arquivo style.css deve incluir:
-– Uso de seletores por tag, classe e ID.
-– Definição de cores e tipografia (fontes, tamanhos, pesos, etc.).
-– Aplicação correta do box model (margem, padding, borda).
-– Uso de posicionamento para organizar elementos (ex: relative, absolute, fixed ou sticky).
-– Uso de Flexbox para organizar seções e/ou cards de forma responsiva (exemplo: área de projetos ou habilidades).
-– Um layout agradável, com harmonia entre as cores e boa legibilidade.
-– Uso do seletor :hover em pelo menos um elemento (ex: botões ou links).
+- Uso de seletores por tag, classe e ID.
+- Definição de cores e tipografia (fontes, tamanhos, pesos, etc.).
+- Aplicação correta do box model (margem, padding, borda).
+- Uso de posicionamento para organizar elementos (ex: relative, absolute, fixed ou sticky).
+- Uso de Flexbox para organizar seções e/ou cards de forma responsiva (exemplo: área de projetos ou habilidades).
+- Um layout agradável, com harmonia entre as cores e boa legibilidade.
+- Uso do seletor :hover em pelo menos um elemento (ex: botões ou links).
 
 ### Estrutura de pastas
 portfolio/
